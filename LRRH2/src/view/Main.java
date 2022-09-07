@@ -67,6 +67,7 @@ public class Main {
 					user.singUp(id, pw, name, 3);
 				}
 				else if(inputNum==3) {
+					mp3.stop();
 					System.out.println("게임을 종료합니다");
 					break;
 				}
